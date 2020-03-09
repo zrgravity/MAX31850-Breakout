@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX31850KATB
+D One-Wire K-type Thermocouple Interface
+K One-Wire Cold Junction Thermocouple Interface
+F https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf
+$ENDCMP
+#
+#End Doc Library
