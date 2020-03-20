@@ -317,10 +317,10 @@ Connection ~ 6400 4000
 Wire Wire Line
 	6400 4000 6400 4300
 $Comp
-L 0-GIE_SMD_Jumpers:SolderJumper_3_Bridged12 AD_SRC
+L 0-GIE_SMD_Jumpers:SolderJumper_3_Bridged12 AD_SRC1
 U 1 1 5E74BD6C
 P 6150 4800
-F 0 "AD_SRC" V 6200 4900 50  0000 C CNN
+F 0 "AD_SRC1" V 6200 5000 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" V 6100 5350 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6150 4800 50  0001 C CNN
 F 3 "~" H 6150 4800 50  0001 C CNN

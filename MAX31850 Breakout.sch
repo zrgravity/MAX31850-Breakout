@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:MAX31850 Breakout-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5E73EC25
 P 5300 3300
 F 0 "U1" H 5050 3650 50  0000 C CNN
 F 1 "MAX31850KATB" H 4950 2950 50  0000 C CNN
-F 2 "MAX31850-Breakout:TDFN-10-1EP_3x4mm_P0.5mm_EP1.75x2.7mm" H 6300 2950 50  0001 C CIN
+F 2 "MAX31850-Breakout-footprints:TDFN-10-1EP_3x4mm_P0.5mm_EP1.75x2.7mm" H 6300 2950 50  0001 C CIN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf" H 5300 3300 50  0001 C CNN
 	1    5300 3300
 	1    0    0    -1  
@@ -54,7 +55,7 @@ U 1 1 5E752F56
 P 4950 2750
 F 0 "C2" V 4698 2750 50  0000 C CNN
 F 1 "0.1uF" V 4789 2750 50  0000 C CNN
-F 2 "0 - GIE SMD Passive Components:C_0603_1608Metric" H 4988 2600 50  0001 C CNN
+F 2 "MAX31850-Breakout-footprints:C_0603_1608Metric" H 4988 2600 50  0001 C CNN
 F 3 "~" H 4950 2750 50  0001 C CNN
 	1    4950 2750
 	0    1    1    0   
@@ -83,7 +84,7 @@ U 1 1 5E756623
 P 8650 3000
 F 0 "J2" H 8730 3042 50  0000 L CNN
 F 1 "Conn_01x03" H 8730 2951 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8650 3000 50  0001 C CNN
+F 2 "MAX31850-Breakout-footprints:PinHeader_1x03_P2.54mm_Vertical" H 8650 3000 50  0001 C CNN
 F 3 "~" H 8650 3000 50  0001 C CNN
 	1    8650 3000
 	1    0    0    -1  
@@ -127,7 +128,7 @@ U 1 1 5E7594F1
 P 4500 3300
 F 0 "C1" H 4615 3346 50  0000 L CNN
 F 1 "10nF" H 4615 3255 50  0000 L CNN
-F 2 "0 - GIE SMD Passive Components:C_0603_1608Metric" H 4538 3150 50  0001 C CNN
+F 2 "MAX31850-Breakout-footprints:C_0603_1608Metric" H 4538 3150 50  0001 C CNN
 F 3 "~" H 4500 3300 50  0001 C CNN
 	1    4500 3300
 	1    0    0    -1  
@@ -152,7 +153,7 @@ U 1 1 5E75BB5A
 P 3950 3350
 F 0 "J1" H 3868 3025 50  0000 C CNN
 F 1 "Conn_01x02" H 3868 3116 50  0000 C CNN
-F 2 "0 - GIE Connectors, Terminal Blocks:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 3950 3350 50  0001 C CNN
+F 2 "MAX31850-Breakout-footprints:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 3950 3350 50  0001 C CNN
 F 3 "~" H 3950 3350 50  0001 C CNN
 	1    3950 3350
 	-1   0    0    1   
@@ -175,7 +176,7 @@ U 1 1 5E7522C3
 P 5900 2950
 F 0 "R1" H 5970 2996 50  0000 L CNN
 F 1 "DNP_4.7k" H 5970 2905 50  0000 L CNN
-F 2 "0 - GIE SMD Passive Components:R_0603_1608Metric" V 5830 2950 50  0001 C CNN
+F 2 "MAX31850-Breakout-footprints:R_0603_1608Metric" V 5830 2950 50  0001 C CNN
 F 3 "~" H 5900 2950 50  0001 C CNN
 	1    5900 2950
 	1    0    0    -1  
@@ -254,7 +255,7 @@ U 1 1 5E7479F9
 P 6200 4300
 F 0 "AD3" H 6350 4200 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 5600 4200 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6200 4300 50  0001 C CNN
+F 2 "MAX31850-Breakout-footprints:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6200 4300 50  0001 C CNN
 F 3 "~" H 6200 4300 50  0001 C CNN
 	1    6200 4300
 	-1   0    0    1   
@@ -265,7 +266,7 @@ U 1 1 5E747464
 P 6200 4000
 F 0 "AD2" H 6350 3900 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 5600 3900 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6200 4000 50  0001 C CNN
+F 2 "MAX31850-Breakout-footprints:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6200 4000 50  0001 C CNN
 F 3 "~" H 6200 4000 50  0001 C CNN
 	1    6200 4000
 	-1   0    0    1   
@@ -276,7 +277,7 @@ U 1 1 5E746EFF
 P 6200 3700
 F 0 "AD1" H 6350 3600 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 5600 3600 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6200 3700 50  0001 C CNN
+F 2 "MAX31850-Breakout-footprints:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6200 3700 50  0001 C CNN
 F 3 "~" H 6200 3700 50  0001 C CNN
 	1    6200 3700
 	-1   0    0    1   
@@ -287,7 +288,7 @@ U 1 1 5E7420FC
 P 6200 3400
 F 0 "AD0" H 6350 3300 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 5600 3300 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6200 3400 50  0001 C CNN
+F 2 "MAX31850-Breakout-footprints:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6200 3400 50  0001 C CNN
 F 3 "~" H 6200 3400 50  0001 C CNN
 	1    6200 3400
 	-1   0    0    1   
@@ -322,7 +323,7 @@ U 1 1 5E74BD6C
 P 6150 4800
 F 0 "AD_SRC1" V 6200 5000 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" V 6100 5350 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6150 4800 50  0001 C CNN
+F 2 "MAX31850-Breakout-footprints:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6150 4800 50  0001 C CNN
 F 3 "~" H 6150 4800 50  0001 C CNN
 	1    6150 4800
 	0    1    1    0   
