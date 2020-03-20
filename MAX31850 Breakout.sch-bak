@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MAX31850_Breakout:MAX31850_Breakout_MAX31850KATB U1
+L MAX31850_Breakout:MAX31850KATB U1
 U 1 1 5E73EC25
 P 5300 3300
 F 0 "U1" H 5050 3650 50  0000 C CNN
@@ -249,10 +249,10 @@ F 3 "" H 6400 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 0-GIE_SMD_Jumpers:SolderJumper_3_Bridged12 JP5
+L 0-GIE_SMD_Jumpers:SolderJumper_3_Bridged12 AD3
 U 1 1 5E7479F9
 P 6200 4300
-F 0 "JP5" H 6350 4200 50  0000 C CNN
+F 0 "AD3" H 6350 4200 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 5600 4200 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6200 4300 50  0001 C CNN
 F 3 "~" H 6200 4300 50  0001 C CNN
@@ -260,10 +260,10 @@ F 3 "~" H 6200 4300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 0-GIE_SMD_Jumpers:SolderJumper_3_Bridged12 JP4
+L 0-GIE_SMD_Jumpers:SolderJumper_3_Bridged12 AD2
 U 1 1 5E747464
 P 6200 4000
-F 0 "JP4" H 6350 3900 50  0000 C CNN
+F 0 "AD2" H 6350 3900 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 5600 3900 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6200 4000 50  0001 C CNN
 F 3 "~" H 6200 4000 50  0001 C CNN
@@ -271,10 +271,10 @@ F 3 "~" H 6200 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 0-GIE_SMD_Jumpers:SolderJumper_3_Bridged12 JP3
+L 0-GIE_SMD_Jumpers:SolderJumper_3_Bridged12 AD1
 U 1 1 5E746EFF
 P 6200 3700
-F 0 "JP3" H 6350 3600 50  0000 C CNN
+F 0 "AD1" H 6350 3600 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 5600 3600 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6200 3700 50  0001 C CNN
 F 3 "~" H 6200 3700 50  0001 C CNN
@@ -282,10 +282,10 @@ F 3 "~" H 6200 3700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 0-GIE_SMD_Jumpers:SolderJumper_3_Bridged12 JP2
+L 0-GIE_SMD_Jumpers:SolderJumper_3_Bridged12 AD0
 U 1 1 5E7420FC
 P 6200 3400
-F 0 "JP2" H 6350 3300 50  0000 C CNN
+F 0 "AD0" H 6350 3300 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 5600 3300 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6200 3400 50  0001 C CNN
 F 3 "~" H 6200 3400 50  0001 C CNN
@@ -317,10 +317,10 @@ Connection ~ 6400 4000
 Wire Wire Line
 	6400 4000 6400 4300
 $Comp
-L 0-GIE_SMD_Jumpers:SolderJumper_3_Bridged12 JP1
+L 0-GIE_SMD_Jumpers:SolderJumper_3_Bridged12 AD_SRC
 U 1 1 5E74BD6C
 P 6150 4800
-F 0 "JP1" V 6200 4900 50  0000 C CNN
+F 0 "AD_SRC" V 6200 4900 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" V 6100 5350 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6150 4800 50  0001 C CNN
 F 3 "~" H 6150 4800 50  0001 C CNN
